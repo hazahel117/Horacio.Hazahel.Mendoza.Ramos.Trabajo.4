@@ -1,11 +1,11 @@
 //Crear la conexión
-var socket = io.connect('https://horacio-hazahel-mendoza-ramos.onrender.com:4000');
+var socket = io.connect('https://horacio-hazahel-mendoza-ramos.onrender.com/');
 
 var message = document.getElementById('message');
-    handle = document.getElementById('handle'),
-    btn = document.getElementById('send'),
-    output = document.getElementById('output'),
-    feedback = document.getElementById('feedback');
+var handle = document.getElementById('handle');
+var btn = document.getElementById('send');
+var output = document.getElementById('output');
+var feedback = document.getElementById('feedback');
 
 //Emitir eventos
 
@@ -27,5 +27,5 @@ socket.on('chat', function(data){
 });
 
 socket.on('typing', function(data){
-    feedback.innerHTML = '<p id="typing"><em>    ' + data + ' está escribiendo...</em></p>';
+    feedback.innerHTML = '<p><em>    ' + data + ' está escribiendo...</em></p>';
 });
