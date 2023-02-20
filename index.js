@@ -3,8 +3,8 @@ var socket = require('socket.io');
 
 //Setup de la aplicación
 var app = express();
-var servidor = app.listen(3000,function(){
-    console.log('Atendiendo peticiones del puerto 3000');
+var servidor = app.listen(4000,function(){
+    console.log('Atendiendo peticiones del puerto 4000');
 
 });
 
