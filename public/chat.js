@@ -1,5 +1,5 @@
 //Crear la conexión
-var socket = io.connect('https://horacio-hazahel-mendoza-ramos.onrender.com/:4000');
+var socket = io.connect('https://horacio-hazahel-mendoza-ramos.onrender.com:3000');
 
 var message = document.getElementById('message');
     handle = document.getElementById('handle'),
