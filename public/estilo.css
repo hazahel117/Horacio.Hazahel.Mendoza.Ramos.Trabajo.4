@@ -1,0 +1,73 @@
+* {
+    font-family: 'poppins',sans-serif;
+  }
+body{
+  background: #eee;
+}
+  
+  h2 {
+    font-size: 18px;
+    padding: 10px 20px;
+    color: #31007e;
+  }
+  #titulo{
+    text-align: center;
+    background: rgb(20, 163, 246);
+    padding-top: 10px;
+    padding-bottom: 5px;
+    border: 3px solid black;
+  }
+  #titulo h1, h2{ 
+    margin: 0;
+  }
+  #chat{
+    max-width: 600px;
+    margin: 30px auto; 
+    border: 2px solid #000000;
+    box-shadow: 1px 2px 5px rgba(0,0,0,0.05);
+    border-radius: 2px;
+  }
+  
+  #ventana{
+    height: 400px;
+    overflow: auto;
+    background: #cdf0f9;
+  }
+  
+  #output p{
+    padding: 14px 0px; 
+    margin: 0 20px;
+    border-bottom: 1px solid #2a2828;
+    color: #10035d;
+  }
+  #feedback p{
+    padding: 0px 20px; 
+  }
+  
+  label{
+    box-sizing: border-box;
+    display: block;
+    padding: 10px 20px;
+  }
+  
+  input {
+    padding: 10px 20px;
+    box-sizing: border-box;
+    background: #eee;
+    border: 0;
+    display: block;
+    width: 100%;
+    background: #fff;
+    border-bottom: 1px solid #eee;
+    font-size: 16px;
+  }
+  
+  button{
+    background: #575ed8;
+    color: #fff;
+    font-size: 18px;
+    border: 0;
+    padding: 12px 0;
+    width: 100%;
+    border-radius: 0 0 2px 2px;
+  }
